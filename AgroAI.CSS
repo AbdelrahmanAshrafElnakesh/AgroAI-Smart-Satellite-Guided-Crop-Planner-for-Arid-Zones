@@ -1,0 +1,48 @@
+/* style.css */
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f3f4f6; /* Light gray background */
+}
+#map {
+    height: 400px; /* Fixed height for the map */
+    width: 100%; /* Full width */
+    border-radius: 0.75rem; /* Rounded corners for map */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.container {
+    max-width: 800px; /* Max width for content */
+}
+input[type="text"] {
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input[type="text"]:focus {
+    border-color: #6366f1; /* Indigo focus ring */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+    outline: none;
+}
+button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.15s ease-in-out;
+}
+.btn-primary {
+    background-color: #4f46e5; /* Indigo */
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #4338ca; /* Darker indigo on hover */
+}
+.btn-secondary {
+    background-color: #6b7280; /* Gray */
+    color: white;
+}
+.btn-secondary:hover {
+    background-color: #4b5563; /* Darker gray on hover */
+}
